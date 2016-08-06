@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Login</title>
+  <meta charset="utf-8"/>
+  <!--Import Google Icon Font-->
+  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+  <link type="text/css" rel="stylesheet" href="css/mycss.css"  media="screen,projection"/>
+
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+<body class="blue accent-4">
+  <header class="center-align white-text razon">
+  <h3><b>JuezDynamic</b></h3>
+  </header>
+
+  <div class="container">
+    <div class="row">
+      <div class="col s12">
+        <div class="col s10 m4 offset-m4 offset-s1 card left-align">						
+					<div class="card-content">						
+						<div class="card-tittle">
+							<h5>Iniciar sesión</h5>
+						</div>
+						<div class="row">
+							<form action="index.html" method="POST" class="col s12">
+								<div class="row">
+									<div class="input-field col s12">
+										<i class="material-icons prefix">account_circle</i>
+									  <input id="user" type="text" class="validate">
+									  <label for="user">Cedula o Email</label>
+									</div>
+									<div class="input-field col s12">
+										<i class="material-icons prefix">vpn_key</i>
+									  <input id="pass" type="password" class="validate">
+									  <label for="pass">Clave</label>
+									</div>								
+								</div>								
+								<input type="submit" name="entrar" value="ENTRAR" class="waves-effect waves-light btn green darken-1 col s12 m5 right "/>
+							</form>
+						</div>							
+					</div>		  
+				</div>
+			</div>
+    </div>
+  </div>
+
+  <!--Import jQuery before materialize.js-->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script type="text/javascript" src="js/myjs.js"></script>
+</body>
+</html>
+      

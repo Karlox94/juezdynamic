@@ -1,0 +1,60 @@
+blockquote {
+  border-left: 5px solid #43a047 !important;
+}
+#opciones{
+	top: 56px !important;
+}
+.buscar{
+	bottom: 30px; 
+	right: 24px;
+}
+.done{
+	bottom: 30px; 
+	right: 90px;
+}
+.card{
+	margin-top: 30px !important;
+}
+.collection{
+	border: 1px solid transparent !important;
+	margin-bottom: 0px !important;
+}
+.collection:last-child{
+	margin-bottom: 0px !important;
+}
+.collection-item{
+	color: #212121;
+	border-left: 5px solid gray;
+	margin-bottom: 10px !important;
+	padding: 10px !important;
+}
+.collection-item .material-icons{
+	line-height: 0.8em;
+	color: #2962ff;
+}
+.desc{
+	font-size: 11px;
+}
+.icon{
+	color: #43a047 !important;
+}
+.lupa{
+	bottom: 0px;
+}
+.razon{
+	margin-top: 40px;
+}
+.row{
+	margin-bottom: 10px !important;
+}
+.titulo{
+	margin-bottom: 10px;
+	box-shadow: 0px 5px 0px lightgray;
+	padding-top: 10px !important;
+	padding-bottom: 10px !important;
+}
+.titulo2{
+	margin-bottom: 10px;
+	box-shadow: 0px 5px 0px lightgray;
+	padding-top: 10px !important;
+}
